@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="13" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-24T21:14:51 IST" name="Default suite" finished-at="2024-12-24T21:15:04 IST" duration-ms="12856">
+    <groups>
+    </groups>
+    <test started-at="2024-12-24T21:14:51 IST" name="Default test" finished-at="2024-12-24T21:15:04 IST" duration-ms="12856">
+      <class name="Firstcry.stroller">
+        <test-method is-config="true" signature="navigate()[pri:0, instance:Firstcry.stroller@424fd310]" started-at="2024-12-24T21:14:51 IST" name="navigate" finished-at="2024-12-24T21:14:54 IST" duration-ms="2791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="account()[pri:1, instance:Firstcry.stroller@424fd310]" started-at="2024-12-24T21:14:54 IST" name="account" finished-at="2024-12-24T21:14:54 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account -->
+        <test-method signature="e_mail()[pri:2, instance:Firstcry.stroller@424fd310]" started-at="2024-12-24T21:14:54 IST" name="e_mail" finished-at="2024-12-24T21:14:55 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e_mail -->
+        <test-method signature="password()[pri:3, instance:Firstcry.stroller@424fd310]" started-at="2024-12-24T21:14:55 IST" name="password" finished-at="2024-12-24T21:14:55 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method signature="sign_in()[pri:4, instance:Firstcry.stroller@424fd310]" started-at="2024-12-24T21:14:55 IST" name="sign_in" finished-at="2024-12-24T21:15:00 IST" duration-ms="5109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign_in -->
+        <test-method signature="stroller()[pri:5, instance:Firstcry.stroller@424fd310]" started-at="2024-12-24T21:15:00 IST" name="stroller" finished-at="2024-12-24T21:15:00 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stroller -->
+        <test-method signature="babyhug_stroller()[pri:6, instance:Firstcry.stroller@424fd310]" started-at="2024-12-24T21:15:00 IST" name="babyhug_stroller" finished-at="2024-12-24T21:15:00 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- babyhug_stroller -->
+        <test-method signature="add_to_cart()[pri:7, instance:Firstcry.stroller@424fd310]" started-at="2024-12-24T21:15:00 IST" name="add_to_cart" finished-at="2024-12-24T21:15:01 IST" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_to_cart -->
+        <test-method signature="add_product()[pri:8, instance:Firstcry.stroller@424fd310]" started-at="2024-12-24T21:15:01 IST" name="add_product" finished-at="2024-12-24T21:15:01 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_product -->
+        <test-method signature="proceed_to_checkout()[pri:9, instance:Firstcry.stroller@424fd310]" started-at="2024-12-24T21:15:01 IST" name="proceed_to_checkout" finished-at="2024-12-24T21:15:04 IST" duration-ms="2659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceed_to_checkout -->
+        <test-method signature="first_name()[pri:10, instance:Firstcry.stroller@424fd310]" started-at="2024-12-24T21:15:04 IST" name="first_name" finished-at="2024-12-24T21:15:04 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first_name -->
+        <test-method signature="last_name()[pri:11, instance:Firstcry.stroller@424fd310]" started-at="2024-12-24T21:15:04 IST" name="last_name" finished-at="2024-12-24T21:15:04 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- last_name -->
+        <test-method signature="email()[pri:12, instance:Firstcry.stroller@424fd310]" started-at="2024-12-24T21:15:04 IST" name="email" finished-at="2024-12-24T21:15:04 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email -->
+        <test-method signature="mobile_no()[pri:13, instance:Firstcry.stroller@424fd310]" started-at="2024-12-24T21:15:04 IST" name="mobile_no" finished-at="2024-12-24T21:15:04 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile_no -->
+        <test-method signature="address()[pri:14, instance:Firstcry.stroller@424fd310]" started-at="2024-12-24T21:15:04 IST" name="address" finished-at="2024-12-24T21:15:04 IST" duration-ms="49" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f43b3faffc230d193bffa1354e458d27, sendKeysToElement {id=f.4E60B74FD3DCD56B6D17FE5A217FA593.d.C0C4C38EA54897B0304377810D7D67EF.e.105, value=[Ljava.lang.CharSequence;@1b0a7baf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Samiksha\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57728}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57728/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f43b3faffc230d193bffa1354e458d27)] -> xpath: //input[@name="addressLine1"]]
+Session ID: f43b3faffc230d193bffa1354e458d27]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f43b3faffc230d193bffa1354e458d27, sendKeysToElement {id=f.4E60B74FD3DCD56B6D17FE5A217FA593.d.C0C4C38EA54897B0304377810D7D67EF.e.105, value=[Ljava.lang.CharSequence;@1b0a7baf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Samiksha\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57728}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57728/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f43b3faffc230d193bffa1354e458d27)] -> xpath: //input[@name="addressLine1"]]
+Session ID: f43b3faffc230d193bffa1354e458d27
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at Firstcry.stroller.address(stroller.java:111)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- address -->
+        <test-method signature="address_line()[pri:15, instance:Firstcry.stroller@424fd310]" started-at="2024-12-24T21:15:04 IST" name="address_line" finished-at="2024-12-24T21:15:04 IST" duration-ms="52" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f43b3faffc230d193bffa1354e458d27, sendKeysToElement {id=f.4E60B74FD3DCD56B6D17FE5A217FA593.d.C0C4C38EA54897B0304377810D7D67EF.e.106, value=[Ljava.lang.CharSequence;@4816c290}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Samiksha\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57728}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57728/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f43b3faffc230d193bffa1354e458d27)] -> xpath: //input[@name="addressLine2"]]
+Session ID: f43b3faffc230d193bffa1354e458d27]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f43b3faffc230d193bffa1354e458d27, sendKeysToElement {id=f.4E60B74FD3DCD56B6D17FE5A217FA593.d.C0C4C38EA54897B0304377810D7D67EF.e.106, value=[Ljava.lang.CharSequence;@4816c290}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Samiksha\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57728}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57728/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f43b3faffc230d193bffa1354e458d27)] -> xpath: //input[@name="addressLine2"]]
+Session ID: f43b3faffc230d193bffa1354e458d27
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at Firstcry.stroller.address_line(stroller.java:117)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- address_line -->
+      </class> <!-- Firstcry.stroller -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
